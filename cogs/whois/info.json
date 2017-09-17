@@ -1,0 +1,7 @@
+{
+    "AUTHOR" : "Shane#1044",
+    "INSTALL_MSG" : "Not intended for public use, tread carefully.",
+    "NAME" : "whois",
+    "SHORT" : "A whois command.",
+    "DESCRIPTION" : "Allows a user to instantly look up information about a fellow member on a server.",
+}
