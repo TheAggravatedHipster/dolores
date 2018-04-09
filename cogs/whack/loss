@@ -19,10 +19,10 @@ class loss:
         sender = ctx.message.author
         img = ["https://i.redd.it/hopdc9y2y4201.jpg", "https://i.redd.it/d1ryuh4x70501.jpg", "https://i.redd.it/qfuzye04cy801.png", "https://i.redd.it/v4ne7urr3yl01.jpg", "https://i.redd.it/qxdzilo4ds6z.jpg", "https://i.redd.it/odsx7m131fl01.jpg", "https://i.imgur.com/P6ciHV8.jpg", "https://i.redd.it/x9sg4hmy98gz.png", "https://i.redd.it/6snuxszzwxzz.jpg", "https://i.redd.it/7qhg78j691101.jpg", "https://i.redd.it/7zu3xckz9qjz.jpg", "https://i.redd.it/6rgmlupm9avz.png"]
         else:
-            whackmsg.set_image(url=random.choice(img))
-            await self.bot.say(embed=whackmsg)
+            losskmsg.set_image(url=random.choice(img))
+            await self.bot.say(embed=lossmsg)
 
 
 
 def setup(bot):
-    bot.add_cog(whack(bot))
+    bot.add_cog(loss(bot))
